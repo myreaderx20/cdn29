@@ -1,0 +1,1235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xmlns:wb="//open.weibo.com/wb">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Solidot: 奇客的资讯，重要的东西</title>
+<meta name="baidu-site-verification" content="DFUjePAJQQ" />
+<meta property="wb:webmaster" content="14038afe88cfc78f" />
+<meta name="keywords" content="IT,开源,开发者,软件,硬件,书籍,互联网,科学,社会,奇客,社区"/>
+<meta property="qc:admins" content="4316552177637414746727" />
+<meta name="description" content="Solidot是至顶网下的科技资讯网站，主要面对开源自由软件和关心科技资讯读者群，包括众多中国开源软件的开发者，爱好者和布道者。口号是“奇客的资讯，重要的东西”。"/>
+<base href="//www.solidot.org" />
+<link href="https://icon.solidot.org/css/default/common.css" rel="stylesheet" type="text/css" /><link href="https://icon.solidot.org/css/default/base.css" rel="stylesheet" type="text/css" /><link href="https://icon.solidot.org/css/green/index.css" rel="stylesheet" type="text/css" />
+<script src="//tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=3991498076" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="https://icon.solidot.org/js/jquery-1.7.2.min.js"></script>
+<link rel="alternate" title="Solidot RSS" href="//www.solidot.org/index.rss" type="application/rss+xml" />
+<link rel="alternate" title="BNet职业商学院" href="//www.bnet.com.cn/bnetzc.xml" type="application/rss+xml" />
+<link rel="alternate" title="CNET(科技资讯网)原创" href="://www.cnetnews.com.cn/cnetnews.xml" type="application/rss+xml" />
+<link rel="alternate" title="至顶网网络频道 原创" href="//net.zhiding.cn/network_security_zone/netrss.xml" type="application/rss+xml"/>
+<link rel="alternate" title="至顶网服务器频道 原创" href="//server.zhiding.cn/server/serverrss.xml" type="application/rss+xml" />
+<link rel="alternate" title="至顶网软件频道 原创" href="//soft.zhiding.cn/software_zone/softrss.xml" type="application/rss+xml" />
+<link rel="alternate" title="至顶网存储频道 原创" href="//stor-age.zhiding.cn/stor-age/storrss.xml" type="application/rss+xml" />
+<link rel="alternate" title="至顶网 CIO 频道 原创" href="//cio.zhiding.cn/cio/ciorss.xml" type="application/rss+xml" />
+<link rel="alternate" title="至顶网安全频道 原创" href="//security.zhiding.cn/security_zone/securityrss.xml" type="application/rss+xml" />
+</head>
+<body class="bg_col">
+<div id="headads">
+	<div id="ads_l">
+		<img src="https://icon.solidot.org/images/default/ads.gif" /><br />
+		<img width="870" height="90" alt="adv" src="https://am.zhiding.cn/www/images/201902/SolidotPodcast_87090_0215.jpg" />	</div>
+	<div id="ads_r">
+		<img src="https://icon.solidot.org/images/default/ads.gif" /><br />
+		<img width="300" height="90" border="0" alt="" src="https://am.zhiding.cn/www/images/201902/default_ads_saibogushi90_0225.jpg" />	</div>
+	<div class="clear"></div>
+</div>
+<div id="main">
+<div class="logo_sosobox">
+    <div class="logo_bg">
+        <a href="/" class="logo_bg" title="Solidot 奇客的资讯，重要的东西"></a>
+    </div>
+    <div class="soso_inp">
+        <div class="soand_btn">
+            <form action="//www.google.com.hk/search" method="get" target="_blank">
+                <div class="soso_div" positionleft="7">
+                    <strong> 
+                        <input type="text" autocomplete="off" name="query" class="textinp">
+                    </strong>
+                </div>
+                <div class="btn_ss">
+                    <input type="hidden" value="solidot.org" name="as_sitesearch"/>
+                    <input type="submit" name="" value="" style="cursor:pointer"/>
+                </div>
+            </form>
+        </div>
+        <div class="login_rr">
+                        <div class="login_r"><a href="/login">登录</a> <a href="/register">注册</a></div>
+                        <ul id="ul_nav">
+                                <li class="s_icon">
+                    <span>文章</span>
+                    <div class="translat_down hiden" style="right:2px;">
+                        <a href="/submit">提交文章</a>
+                        <a href="/?issue=20200815">往日文章</a>
+                        <a href="/polllist">往日投票</a>
+                                            </div>
+                </li>
+                                <li class="s_icon">
+                    <span>皮肤</span>
+                    <div class="translat_down hiden">
+                        <a href="/?theme=blue">蓝色</a>
+                        <a href="/?theme=yellow">橙色</a>
+                        <a href="/?theme=green">绿色</a>
+                        <a href="/?theme=clightgreen">浅绿色</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="nav-secondary-wrap">
+    <nav class="nav-secondary" role="secondary-navigation">
+        <ul>
+            <li class="nav-label">分类: </li>
+            <li><a href="/news">信息流</a></li>
+                                    <li><a href="//www.solidot.org/">首页</a></li>
+                                                <li><a href="//startup.solidot.org/">创业问答</a></li>
+                                                <li><a href="//linux.solidot.org/">Linux</a></li>
+                                                <li><a href="//science.solidot.org/">科学</a></li>
+                                                <li><a href="//technology.solidot.org/">科技</a></li>
+                                                <li><a href="//mobile.solidot.org/">移动</a></li>
+                                                <li><a href="//apple.solidot.org/">苹果</a></li>
+                                                <li><a href="//hardware.solidot.org/">硬件</a></li>
+                                                <li><a href="//software.solidot.org/">软件</a></li>
+                                                <li><a href="//security.solidot.org/">安全</a></li>
+                                                <li><a href="//games.solidot.org/">游戏</a></li>
+                                                <li><a href="//books.solidot.org/">书籍</a></li>
+                                                <li><a href="//ask.solidot.org/">ask</a></li>
+                                                <li><a href="//idle.solidot.org/">idle</a></li>
+                                                <li><a href="//cloud.solidot.org/">云计算</a></li>
+                        	                  
+        </ul>
+    </nav>
+    <div class="combined_log" style="width:240px; padding-right:0;">
+        <h2 style="color:#fff; margin-top:-0.1em;">关注我们：</h2>
+        <ul class="clearfix">
+        	<li><a class="rss" title="rss" href="/index.rss"></a></li>
+            <li><wb:follow-button uid="1686235170" type="gray_1" width=67 height=24></wb:follow-button></li>
+            <li><a class="xima" target="_blank" rel="nofollow" title="喜马拉雅" href="http://www.ximalaya.com/keji/16007374/"></a></li>
+            <li><a class="wechat" title="扫码关注solidot" href="javascript:void(0);"></a></li>
+        </ul>
+     </div>
+</div>
+<div class="clear"></div>
+
+<div id="right">
+    <div class="wechat_code hiden"></div>
+    <div class="qu_btns">
+    	<a href="/submit">提交文章</a>
+        <!--a href="/bbsubmit">发布帖子</a>-->
+    </div>
+        <div class="adv">
+        <a target="_blank" href="http://www.ppthub.com.cn/"><img width="300" height="250" border="0" alt="" src="https://am.zhiding.cn/www/images/201902/default_ads_PPTHub250_0222.jpg" /></a>    </div>
+            <div class="block_r">
+        <div class="rig_tittle">
+            <h2>Solidot 公告</h2>
+        </div>
+        <div class="contentbox">
+            <div class="content">
+                <b>文章提交注意事项：</b>
+                <br>
+                请在发布文章时用HTML代码加上至少一条新闻来源的链接；原创性消息，可加入相关信息（如涉及公司的网址）的链接。有任何问题，<b>邮件至：he.fang#zhiding.cn<br>
+                    ken：feigaobox@gmail.com<br>
+                </b>
+                <span class="pad_10px">注意：收到邮件乱码的用户请修改客户端的默认字体编码，从"简体中文（GB2312）"修改为"Unicode（UTF-8）"。</span>
+            </div>
+        </div>
+        <div class="r_end"></div>
+    </div>
+        <div class="block_r">
+        <div class="rig_tittle">
+            <h2>投 票</h2>
+        </div>
+        <div class="contentbox">
+            <div class="content">
+                <form method="post" action="/poll?op=dopoll&qid=239" name="form1" id="form1" class="tp">
+                    <fieldset>
+                        <b>经常使用的搜索引擎是</b><br/>
+                                                                        <input name="aid[]" type="radio" value="1" /> <b>DuckDuckGo</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="2" /> <b>ChinaSo</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="3" /> <b>Google</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="4" /> <b>WeChat</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="5" /> <b>Yandex</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="6" /> <b>Baidu</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="7" /> <b>Sogou</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="8" /> <b>Weibo</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="9" /> <b>Bing</b>
+                                                <br/>                        <input name="aid[]" type="radio" value="10" /> <b>其它</b>
+                                                <div class="hei5px"></div>
+                        <input type="submit" class="tp_btn" value="投票" /> <span class="v_anwers"> [ <a
+                                href="/poll?qid=239&op=result"><b>结果</b></a> | <a
+                                href="/polllist"><b>投票</b></a>]
+                        </span>
+                        <div class="hei5px"></div>
+                        评论:<b>6</b> | 得票数:<b>7265</b>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="r_end"></div>
+    </div>
+            <div class="block_r">
+        <div class="rig_tittle">
+            <h2>热门文章</h2>
+        </div>
+        <div class="contentbox">
+            <div class="content">
+                <ul class="old_articles">
+                    <li class="old_blockli">
+                        <ul class="comment_on">
+                                                                <li><a href="/story?sid=65249">美国司法部称耶鲁大学招生非法歧视亚裔及白人</a>
+                                    <em>(0)</em></li>
+                                                                <li><a href="/story?sid=65250">天文学家称尘埃云导致参宿四反常变暗</a>
+                                    <em>(0)</em></li>
+                                                                <li><a href="/story?sid=65251">中国北斗导航卫星完成组网</a>
+                                    <em>(0)</em></li>
+                                                                <li><a href="/story?sid=65252">测试报告 SpaceX Starlink 下载速度 11 到 60Mbps</a>
+                                    <em>(0)</em></li>
+                                                                <li><a href="/story?sid=65253">Google 继续尝试在 Chrome 86 中隐藏完整网址</a>
+                                    <em>(0)</em></li>
+                                                                <li><a href="/story?sid=65254">拉普拉斯的全球波预言获得验证</a>
+                                    <em>(0)</em></li>
+                                                                <li><a href="/story?sid=65255">特朗普再签行政令要求字节跳动在 90 天内剥离 TikTok</a>
+                                    <em>(0)</em></li>
+                                                                <li><a href="/story?sid=65256">文泉驿字体项目将重启？</a>
+                                    <em>(0)</em></li>
+                                                                <li><a href="/story?sid=65257">切尔诺贝利真菌能吸收部分辐射</a>
+                                    <em>(0)</em></li>
+                                                                <li><a href="/story?sid=65258">天文学家发现以 8% 光速运行的恒星</a>
+                                    <em>(0)</em></li>
+                                                    </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="r_end"></div>
+    </div>
+            <div class="block_r">
+        <div class="rig_tittle">
+            <h2>热门评论</h2>
+        </div>
+        <div class="contentbox">
+            <div class="content">
+                <ul class="comment_on">
+                                        <li><a
+                            href="/story?sid=65243#comment_293735"><b>二月份中药细辛免疫抑制的假治愈？ 查病历吧。</b></a>
+                        (1 points, 一般)
+                        by solidot1528092189                        在 2020年08月15日09时46分 星期六 
+                        评论到 <a href="/story?sid=65243">两名新冠痊愈患者再次检测出阳性</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65234#comment_293734"><b>推进一点点共产主义</b></a>
+                        (1 points, 一般)
+                        by cutsolidot                        在 2020年08月13日19时42分 星期四 
+                        评论到 <a href="/story?sid=65234">中国视频直播平台表示将加强吃播审查</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65227#comment_293733"><b>BAD KEYBOARD: missing unit</b></a>
+                        (1 points, 一般)
+                        by lot                        在 2020年08月13日17时15分 星期四 
+                        评论到 <a href="/story?sid=65227">宇宙将会如何终结？</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65229#comment_293732"><b>另一种形式的用砖头储电，Energy Vault在2017年就做到了，只不过是用砖头的重力势能……</b></a>
+                        (1 points, 一般)
+                        by ___Mirro                        在 2020年08月13日16时47分 星期四 
+                        评论到 <a href="/story?sid=65229">科学家让砖头能储存电能</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65216#comment_293731"><b>支持美国同态复仇</b></a>
+                        (1 points, 一般)
+                        by nmsl                        在 2020年08月12日18时57分 星期三 
+                        评论到 <a href="/story?sid=65216">美国政府和军事网站被发现地理屏蔽来自中国和香港地区访问</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65194#comment_293730"><b>只要我们把人质杀了劫持者就不能威胁到人质的安全了</b></a>
+                        (1 points, 一般)
+                        by Craynic                        在 2020年08月11日22时48分 星期二 
+                        评论到 <a href="/story?sid=65194">白俄罗斯在选举日断网</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65204#comment_293729"><b>ox</b></a>
+                        (1 points, 一般)
+                        by solidot1551846701                        在 2020年08月11日08时33分 星期二 
+                        评论到 <a href="/story?sid=65204">为什么说美国难以屏蔽微信</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65067#comment_293728"><b>IEEE，第一句话少了个I</b></a>
+                        (1 points, 一般)
+                        by ___Mirro                        在 2020年08月10日11时54分 星期一 
+                        评论到 <a href="/story?sid=65067">IEEE Spectrum 评估的最流行语言是 Python</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65185#comment_293727"><b>侧面反应了 SNI 早被利用多时了？</b></a>
+                        (1 points, 一般)
+                        by hhding                        在 2020年08月10日08时57分 星期一 
+                        评论到 <a href="/story?sid=65185">防火墙开始屏蔽 ESNI</a>
+                    </li>
+                                        <li><a
+                            href="/story?sid=65173#comment_293721"><b>支持美国同态复仇</b></a>
+                        (1 points, 一般)
+                        by nmsl                        在 2020年08月07日18时47分 星期五 
+                        评论到 <a href="/story?sid=65173">Twitter 开始给中国相关账号加上官媒标签</a>
+                    </li>
+                                    </ul>
+            </div>
+        </div>
+        <div class="r_end"></div>
+    </div>
+    
+    <div class="block_r">
+        <div class="rig_tittle">
+            <h2>快速链接</h2>
+        </div>
+        <div class="contentbox">
+            <div class="content">
+                <ul class="haveno_circle">
+                    <li><a target="_blank" href="//www.zhiding.cn">至顶网</a></li>
+                    <li><a target="_blank" href="//linux.cn">Linux中国</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="r_end"></div>
+    </div>
+</div><div id="center">
+        <div class="notice">
+        <div class="arrow"></div>
+        <i class="b_circle"></i> <i class="bt_circle"></i>
+        <div class="notice_m">
+            solidot此次改版内容包括服务器更新、编程语言、网站后台管理的优化、页面和操作流程的优化等。        </div>
+    </div>
+                <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//science.solidot.org'>科学</a>: </span>
+                    
+                    <a href="/story?sid=65258">天文学家发现以 8% 光速运行的恒星</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=19" title="科学"><img
+                        width="62" height="75"
+                        src="https://icon.solidot.org/images/topics/topicscience.gif" alt="科学" /></a>
+            </div>
+            <span class="user" id="3896">
+                <a href="/~ai">ai</a>(3896)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月16日 16时43分            星期日<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                在银河系中心，有数百颗恒星紧密围绕超大质量黑洞“人马座 A* ”运动。它们中的大部分其运行轨道遵循牛顿引力和开普勒定律。但还有少部分太靠近黑洞其轨道只能用爱因斯坦广义相对论精确描述。最靠近黑洞的恒星被命名为 S62，在最近点它的速度<a href="https://phys.org/news/2020-08-fastest-star.html">达到了光速的 8%</a>以上。在 S62 之前，天文学家一直认为 S2 是最接近人马座 A* 的恒星，它是一颗蓝巨星，每 16 年围绕黑洞运行一周。S62 最近被发现比 S2 更靠近黑洞，它的质量两倍于太阳，每 10 年围绕黑洞运行一周。在最近点，S62 的时间膨胀效应最显著，它的一小时相当于 100 地球分钟。它的轨道不是椭圆形，而是螺旋形，每周期轨道进动大约 10 度。此类的相对论进动最早是在水星轨道观测到的，效应并不大。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65258">阅读更多...</a>
+                    | <a href="/comments?sid=65258&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//science.solidot.org'>科学</a>: </span>
+                    
+                    <a href="/story?sid=65257">切尔诺贝利真菌能吸收部分辐射</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=19" title="科学"><img
+                        width="62" height="75"
+                        src="https://icon.solidot.org/images/topics/topicscience.gif" alt="科学" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月16日 14时49分            星期日<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                地球的大气层和磁场为人类抵挡了有害辐射，而身处大气层外层的宇航员受到的辐射水平比地表高 20 倍。NASA 最近在国际空间站做了一个实验，<a href="https://www.technologynetworks.com/applied-sciences/videos/chernobyl-fungus-eats-nuclear-radiation-via-radiosynthesis-338464">测试了</a>切尔诺贝利核电站附近发现的一种真菌。这种真菌利用黑色素将伽马射线转变成化学能，因此能在核辐射中繁荣生长。科学家在国际空间站测试了这种称为 Cladosporium sphaerospermum 的真菌阻挡太空辐射的能力。根据发表在预印本网址 bioRxiv 的<a href="https://www.biorxiv.org/content/10.1101/2020.07.16.205534v1.full">论文</a>，实验结果显示真菌能抵挡部分入射辐射。这一发现可能对未来的太空任务具有深远意义。科学家在考虑为宇航员和太空飞行器表面覆盖一层能吸收辐射的保护性真菌。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65257">阅读更多...</a>
+                    | <a href="/comments?sid=65257&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65256">文泉驿字体项目将重启？</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=9" title="IT"><img
+                        width="75" height="61"
+                        src="https://icon.solidot.org/images/topics/topicit.gif" alt="IT" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月16日 11时52分            星期日<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                匿名读者 写道 "<i>  感谢大家对文泉驿计划的支持！目前项目不再接受捐款。我们会在最近一段时间重启文泉驿项目，和发布新版本的字体，请大家重新关注这个项目。(<a href="http://wenq.org/wqy2/index.cgi?Donation">FangQ / 2020年7月23</a>)</i>
+
+
+
+
+07 年 Solidot 的<a href="http://opensource.solidot.org/article.pl?sid=07/10/30/0951237">采访</a>"            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65256">阅读更多...</a>
+                    | <a href="/comments?sid=65256&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65255">特朗普再签行政令要求字节跳动在 90 天内剥离 TikTok</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=168" title="USA"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicUSA.png" alt="USA" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月16日 11时44分            星期日<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                美国总统特朗普周五<a href="https://cn.reuters.com/article/trump-order-tiktok-split-0816-idCNKCS25B11Q?il=0" target="_blank">签署行政令</a>，要求字节跳动在 90 天内剥离 TikTok在美业务。特朗普在行政令中称，“有可靠的证据让我相信字节跳动...可能会采取有可能损害美国国家安全的行动。”特朗普上周已发布一项行政令，将禁止与 TikTok 进行某些交易，除非字节跳动在 45 天之内予以剥离。字节跳动已在洽谈向微软出售北美、澳洲和新西兰的 TikTok 业务。新的行政令扩大施压字节跳动剥离 TikTok，并合法支持美国政府打压中国社交媒体应用。该行政令授权美国官员检查 TikTok 和字节跳动的书籍和信息系统，以确保在出售谈判进行之际这些个人数据的安全。特朗普还<a href="https://uk.reuters.com/article/us-usa-trump-alibaba/trump-says-looking-at-pressuring-other-chinese-companies-after-bytedance-idUKKCN25B11B">表示</a>考虑对阿里巴巴发出禁令。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65255">阅读更多...</a>
+                    | <a href="/comments?sid=65255&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//science.solidot.org'>科学</a>: </span>
+                    
+                    <a href="/story?sid=65254">拉普拉斯的全球波预言获得验证</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=19" title="科学"><img
+                        width="62" height="75"
+                        src="https://icon.solidot.org/images/topics/topicscience.gif" alt="科学" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月15日 20时09分            星期六<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                大气层是如此混乱，以至于即使使用今天最复杂的气象算法对其进行分析也是一项艰巨的挑战。但这没有阻止法国科学家拉普拉斯（Pierre-Simon Laplace）在 18 世纪末提出一个气象理论：陆地大小的压力波会周期性的席卷全球。科罗拉多州立大学大气科学家 David Randall 指出，基于纸和笔的大气模型是非常粗糙的，然而拉普拉斯仍然能得到有效的结果这实在令人难以置信的。科学家对拉普拉斯的预言展开了长达二百年的搜索。现在，在欧洲中期天气预报中心发布的 ERA5 数据集的帮助下，<a href="https://www.quantamagazine.org/weather-data-reveals-long-predicted-pressure-waves-20200813/">科学家终于验证了这一猜测</a>。ERA5 包含了全球数以千计的地面站、气象气球和卫星记录的数据。<a href="https://journals.ametsoc.org/jas/article/77/7/2519/347483/An-Array-of-Ringing-Global-Free-Modes-Discovered">研究报告</a>发表在《Journal of the Atmospheric Sciences》期刊上。拉普拉斯认为全球波主要来自于月球引力对地球大气的作用，但实际上这种波仍然是地球自己产生的。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65254">阅读更多...</a>
+                    | <a href="/comments?sid=65254&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//software.solidot.org'>软件</a>: </span>
+                    
+                    <a href="/story?sid=65253">Google 继续尝试在 Chrome 86 中隐藏完整网址</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=154" title="Chrome"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicchrome.png" alt="Chrome" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月15日 14时20分            星期六<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                Google 多次尝试在浏览器地址栏隐藏完整的网址，搜索巨人也许是认为长地址是邪恶的。它的每一次尝试都遭到了批评，但这并没有阻止了它继续推进这一计划。它此前在 Chrome 85 的测试版本<a href="https://www.solidot.org/story?sid=64673">引入了</a>名为“Omnibox UI Hide Steady-State URL Path, Query, and Ref”的新特性，提供了两种变化：一种是你将鼠标悬浮在地址栏上就会显示完整网址，另一种是你在与网页互动之后才会隐藏网址。现在它在 Chrome 86 中隐藏完整网址时<a href="https://www.androidpolice.com/2020/08/13/google-resumes-its-senseless-attack-on-the-url-bar-hides-full-addresses-on-chrome-canary/#2">还加入了悬浮动画</a>。支持者认为隐藏完整域名将有助于增加钓鱼的难度，但批评者<a href="https://tech.slashdot.org/story/20/08/14/1614247/google-resumes-its-attack-on-the-url-bar-hides-full-addresses-on-chrome-86">认为</a>此举旨在让用户一直停留在 Google 内容上，而它将能展示更多的广告。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65253">阅读更多...</a>
+                    | <a href="/comments?sid=65253&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65252">测试报告 SpaceX Starlink 下载速度 11 到 60Mbps</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=17" title="互联网"><img
+                        width="70" height="73"
+                        src="https://icon.solidot.org/images/topics/topicinternet.gif" alt="互联网" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月15日 14时00分            星期六<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                SpaceX Starlink 宽带卫星的 beta 测试者<a href="https://arstechnica.com/information-technology/2020/08/spacex-starlink-beta-tests-show-speeds-up-to-60mbps-latency-as-low-as-31ms/">披露</a>，Starlink 的下载速度在 11Mbps 到 60Mbps 之间，上传速度在 5Mbps 到 18Mbps 之间，延迟在 31ms 到 94ms 之间。目前还不清楚在 Starlink 正式商用之后它是否能达到上述的网速和延迟。beta 测试者需要签署保密协议，这些测试数据来自于测速网站 <a href="https://www.speedtest.net/">speedtest.net</a>。SpaceX 曾在递交到 FCC 的报告中称，全面优化之后系统的网速最高将能达到每位用户 1Gbps。SpaceX 已经发射了 600 多颗 Starlink 卫星，计划未来再发射一万颗以上。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65252">阅读更多...</a>
+                    | <a href="/comments?sid=65252&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65251">中国北斗导航卫星完成组网</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=148" title="长城"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicChina.png" alt="长城" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月14日 22时12分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                IEEE Spectrum <a href="https://spectrum.ieee.org/tech-talk/aerospace/satellites/final-piece-of-chinas-beidou-navigation-satellite-system-comes-online">报道了</a>最近完成组网的中国北斗导航卫星。北斗最初的主要动机是军用，PLA 不想依赖于 GPS，因为如果发生冲突美国空军可以关闭开放的 GPS 信号。和 GPS 类似，北斗也能提供民用商用服务。北斗除了能提供导航、定位和授时服务外，还能提供短消息服务，120 字符长度的消息能发送给其它北斗接收者。北斗卫星网络还在测试星间链路，移除对地面站通信的依赖。北斗、美国的 GPS 和俄罗斯的 GLONASS，以及欧洲的伽利略导航卫星，彼此都是互相兼容和互操作的，这意味着民用用户可以利用所有这些服务来改进定位精度。而根据白皮书，中国的最终目标是到 2035 年建立一个无处不在的、集成的、智能的和全面的国家定位导航授时系统。虽然北斗卫星完成了组网，中国还需要做很多工作来充分利用它。中国需要推广地面终端，将兼容接收器安装到各种设备中。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65251">阅读更多...</a>
+                    | <a href="/comments?sid=65251&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//science.solidot.org'>科学</a>: </span>
+                    
+                    <a href="/story?sid=65250">天文学家称尘埃云导致参宿四反常变暗</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=19" title="科学"><img
+                        width="62" height="75"
+                        src="https://icon.solidot.org/images/topics/topicscience.gif" alt="科学" /></a>
+            </div>
+            <span class="user" id="3896">
+                <a href="/~ai">ai</a>(3896)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月14日 20时25分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                参宿四是一颗红巨星，已进入了生命的末期。去年底，天文学家<a href="https://www.solidot.org/story?sid=63317">注意到</a>参宿四的亮度比往常更为黯淡。这一消息引发了广泛关注，认为它可能将面临超新星爆发。自 1604 年以来，银河系内就没有再出现过明亮的超新星，而参宿四距离地球只有 640 光年。在如此近距离爆发超新星，它可能比满月还要明亮。但现在，天文学家给认为参宿四要爆发的人泼了一盆冷水：他们利用哈勃望远镜在变暗前、期间和之后对它进行的观测，综合地面观测台的数据，<a href="https://arstechnica.com/science/2020/08/astronomers-kill-all-the-fun-blame-dust-for-betelgeuses-dimming/#p3" target="_blank">得出结论</a>：恒星变暗是因为它周围形成的尘埃云。<a href="http://arxiv.org/abs/2008.04945">研究报告</a>（预印本）将发表在《The Astrophysical Journal》期刊上。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65250">阅读更多...</a>
+                    | <a href="/comments?sid=65250&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65249">美国司法部称耶鲁大学招生非法歧视亚裔及白人</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=68" title="教育"><img
+                        width="87" height="64"
+                        src="https://icon.solidot.org/images/topics/topiced.gif" alt="教育" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月14日 19时14分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                在两年调查后，美国司法部<a href="https://www.justice.gov/opa/pr/justice-department-finds-yale-illegally-discriminates-against-asians-and-whites-undergraduate">认定</a>耶鲁大学在本科录取程序上歧视亚裔和白人，违反《1964 年民权法案》。美国司法部称，如果耶鲁大学不采取“补救”措施，将会对其提出诉讼。耶鲁大学否认了这一指控。司法部的报告<a href="https://www.bbc.com/zhongwen/simp/world-53775146?at_custom3=BBC+Chinese&amp;at_custom2=twitter&amp;at_campaign=64&amp;at_custom4=7367A75A-DE08-11EA-BFEF-3615933C408C&amp;at_medium=custom7&amp;at_custom1=%5Bpost+type%5D">指出</a>，尽管联邦最高法院认为获得联邦资助的大学在“某些有限情况下”可以考虑申请人的种族背景，可“耶鲁大学对种族背景的利用完全没有限制。耶鲁大学在录取程序中的许多步骤中都考虑种族因素，导致种族影响在录取决定中被成倍放大。”耶鲁大学称在它提供足够信息表明自身做法符合最高法院的判例之前，司法部就下了结论。耶鲁表示，在录取过程中考虑了许多因素，并表示“不会基于这种无情、仓促的指控而改变其招生程序”。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65249">阅读更多...</a>
+                    | <a href="/comments?sid=65249&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65248">Facebook 成为 Linux 基金会的白金会员</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=161" title="Facebook"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicfacebook.png" alt="Facebook" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月14日 17时43分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                社交巨人 Facebook <a href="https://www.linuxfoundation.org/blog/2020/08/facebooks-long-history-of-open-source-investments-deepens-with-platinum-level-linux-foundation-membership/" target="_blank">加入了 Linux 基金会</a>，成为白金会员。作为白金会员，Facebook 开源负责人  Kathy Kam 将加入基金会的董事会。Facebook 向很多开源项目贡献了代码，如 React JS项目，它也是 Linux 基金会托管的项目  <a href="https://prestodb.io/" target="_blank" rel="noopener noreferrer nofollow" data-component="externalLink">Presto</a>、<a href="https://graphql.org/" target="_blank" rel="noopener noreferrer nofollow" data-component="externalLink">GraphQL</a>、<a href="https://osquery.io/" target="_blank" rel="noopener noreferrer nofollow" data-component="externalLink">Osquery</a> 和 <a href="https://onnx.ai/" target="_blank" rel="noopener noreferrer nofollow" data-component="externalLink">ONNX&nbsp; </a>的主要贡献者。其它基金会的白金会员包括：Google、华为、IBM、英特尔、微软、三星和腾讯等。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65248">阅读更多...</a>
+                    | <a href="/comments?sid=65248&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65247">美国国务卿暗示可能会对更多中国应用采取行动</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=168" title="USA"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicUSA.png" alt="USA" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月14日 16时51分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                美国国务卿蓬佩奥（Mike Pompeo）在捷克首都布拉格的一次演讲中<a href="https://www.cnbc.com/2020/08/13/pompeo-trump-executive-orders-are-broader-than-just-tiktok-wechat.html">表示</a>，特朗普针对 TikTok 和微信的行政命令未必限于这两种中国应用。他没有对此进一步说明，但暗示了可能会对更多中国应用采取行动，甚至可能包括 TikTok 的母公司字节跳动和微信的所有者腾讯。特朗普上周的行政命令禁止任何人或涉及任何受美国管辖的财产与微信或 TikTok 进行任何交易。腾讯本周表示它相信该命令不涉及它的其它美国业务。腾讯在美国有着大量的投资，其投资范围包括了游戏公司、娱乐公司以及科技公司，如果真的涉及到腾讯其它业务，那么其影响将会非常广泛。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65247">阅读更多...</a>
+                    | <a href="/comments?sid=65247&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65246">美国称它扣押了三个恐怖组织的数字货币</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=149" title="比特币"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicBitcoin.png" alt="比特币" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月14日 16时09分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                美国司法部宣布，它<a href="https://www.bloomberg.com/news/articles/2020-08-13/u-s-says-it-seized-cryptocurrency-from-three-terrorist-groups">扣押了</a>基地组织、哈马斯军事武装卡桑旅和伊斯兰国价值 200 万美元的虚拟货币和 300 多个账号。美国的这一行动再次表明，比特币和其它数字货币缺乏其所宣称的真正的匿名性。美国司法部称，恐怖组织试图利用新冠疫情来获取金钱，试图向医院、疗养院和急救人员出售假的个人防护用品。FBI 等美国执法机构的调查人员潜入了恐怖组织的活动中，跟踪其行动，识别其数字货币，扣押他们的账号。在一个案例中，执法人员接管和运营了一个网站 30 天。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65246">阅读更多...</a>
+                    | <a href="/comments?sid=65246&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//security.solidot.org'>安全</a>: </span>
+                    
+                    <a href="/story?sid=65245">FBI 和 NSA 对俄罗斯的新 Linux 恶意程序发出警告</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=100" title="安全"><img
+                        width="59" height="78"
+                        src="https://icon.solidot.org/images/topics/topicsecurity.gif" alt="安全" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月14日 15时03分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                FBI 和 NSA 发表<a href="https://media.defense.gov/2020/Aug/13/2002476465/-1/-1/0/CSA_DROVORUB_RUSSIAN_GRU_MALWARE_AUG_2020.PDF">联合报告</a>（PDF），对俄罗斯政府黑客正在使用一种先前未知的 Linux 恶意程序秘密渗透敏感网络、窃取机密信息和执行恶意指令<a href="https://arstechnica.com/information-technology/2020/08/nsa-and-fbi-warn-that-new-linux-malware-threatens-national-security/">发出警告</a>。被称为  Drovorub 的恶意程序直到最近才被发现，其指令控制服务器由俄罗斯军方情报机构相关联的黑客组织操作。Drovorub 工具箱包含四个主要组件：感染 Linux 设备的客户端，使用 rootkit 策略长期隐藏其存在的内核模块，控制被感染机器和接收窃取数据的服务器，充当被感染机器和服务器之间中介的代理。Drovorub 以恶意程序代码中的字符串命名，其意思可能是伐木工或劈材。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65245">阅读更多...</a>
+                    | <a href="/comments?sid=65245&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65244">苹果 Google 应用商店下架《堡垒之夜》，Epic 起诉两大巨头</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=26" title="Google"><img
+                        width="104" height="38"
+                        src="https://icon.solidot.org/images/topics/topicgoogle.gif" alt="Google" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月14日 14时23分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                围绕应用商店收入分成的争议，流行网游《堡垒之夜》在同一天先后被<a href="https://www.theverge.com/2020/8/13/21366438/apple-fortnite-ios-app-store-violations-epic-payments" target="_blank">苹果</a>和 <a href="https://www.theverge.com/2020/8/13/21368079/fortnite-epic-android-banned-google-play-app-store-rule-violation">Google</a> 从其应用商店下架。游戏开发商 Epic 随即宣布<a href="https://twitter.com/FortniteGame/status/1293994211621167105" target="_blank">起诉</a>两大巨头。下架之前，Epic 在《堡垒之夜》中实现了自己的应用内支付系统，绕过了苹果和 Google 30% 的收入分成。苹果和 Google  都认为 Epic 此举违反了应用商店的规定。而 Epic 表示它的支付系统允许消费者更便宜的购买应用内虚拟物品，如原价 10 美元的虚拟物品现在只需要 8 美元。它指控两大巨头涉嫌垄断。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65244">阅读更多...</a>
+                    | <a href="/comments?sid=65244&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65243">两名新冠痊愈患者再次检测出阳性</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=148" title="长城"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicChina.png" alt="长城" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月14日 14时00分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                新华社报道了两名新冠痊愈患者再次检测出阳性，这一消息引发了二次感染的担忧。<a href="http://www.xinhuanet.com/politics/2020-08/12/c_1126359431.htm">报道称</a>，湖北省荆州市一名 68 岁女退休职工因病住院时，经新冠病毒核酸检测为阳性，该女性为 2 月 8 日确诊的新冠肺炎患者治愈数月后再次复阳，非新发病例。另一则<a href="http://www.xinhuanet.com/politics/2020-08/13/c_1126361030.htm">报道称</a>，上海市中山医院发现一例吉林来沪就医的新冠肺炎复阳病例。经调查，该病例曾于今年 4 月在外地被诊断为境外输入性确诊病例，经隔离治疗后出院。两则消息令专家感到困惑。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65243">阅读更多...</a>
+                    | <a href="/comments?sid=65243&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                            <a href="/story?sid=65243"><b>1</b>条评论</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65242">在威胁禁止之后微信和 Signal 的下载量激增</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=168" title="USA"><img
+                        width="64" height="64"
+                        src="https://icon.solidot.org/images/topics/topicUSA.png" alt="USA" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月14日 13时56分            星期五<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                根据 Sensor Tower 的<a href="https://cn.reuters.com/article/trump-wechat-signal-downloading-0814-idCNKCS25A058">数据</a>，在美国总统特朗普威胁封杀腾讯微信后，有更多美国用户下载了微信和加密聊天应用 Signal。美国的微信用户匆忙在应用商店下架前进行了安装。其他用户，特别是在中国的用户，则选择非盈利的 Signal Foundation 推出的 Signal。据 Sensor Tower，美国用户的微信六日平均下载量较美国上周四宣布禁用微信前的一周增加了 41%。Signal 在美国和中国的应用商品下载量分别跳增了 30% 和 90%。微信用户还转向了腾讯拥有的另一个聊天工具 QQ，美国政府的禁令并未涉及该产品。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65242">阅读更多...</a>
+                    | <a href="/comments?sid=65242&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//science.solidot.org'>科学</a>: </span>
+                    
+                    <a href="/story?sid=65241">阿雷西博射电望远镜天线被砸了一个大洞</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=19" title="科学"><img
+                        width="62" height="75"
+                        src="https://icon.solidot.org/images/topics/topicscience.gif" alt="科学" /></a>
+            </div>
+            <span class="user" id="3896">
+                <a href="/~ai">ai</a>(3896)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月13日 21时59分            星期四<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                曾出现在 007 电影《黄金眼》中的阿雷西博射电望远镜<a href="https://www.sciencemag.org/news/2020/08/arecibo-radio-telescope-goes-dark-after-snapped-cable-shreds-dish">现在不得不暂时关闭</a>，因为一个断裂的电缆砸在了天线上，307 米宽的碟状天线砸出了一个 30 米长的缺口。望远镜将至少暂停工作两周。事故发生在 8 月 10 日凌晨 2:45，如果发生在白天的话有可能造成伤亡。它曾在很长一段时间里一直是世界最大单口径射电望远镜，直到 2016 年被中国 500 米口径的 FAST 射电望远镜取代。随着新设施的上线，阿雷西博望远镜在科学上的重要性已经下降了。最新的事故无疑会重启对其未来的讨论。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65241">阅读更多...</a>
+                    | <a href="/comments?sid=65241&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                    
+                    <a href="/story?sid=65240">腾讯称美国禁令对它的影响不大</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=54" title="商业"><img
+                        width="64" height="54"
+                        src="https://icon.solidot.org/images/topics/topicbusiness.gif" alt="商业" /></a>
+            </div>
+            <span class="user" id="31822">
+                <a href="/~WinterIsComing">WinterIsComing</a>(31822)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月13日 21时38分            星期四<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                腾讯周三<a href="https://www.nytimes.com/live/2020/08/12/business/stock-market-today-coronavirus#tencent-says-trumps-order-against-wechat-wont-affect-its-other-us-business">表示</a>，特朗普的微信禁令将不会影响该公司在美国的其他业务。腾讯在美国有大量的投资，它收购或持有多家游戏公司的股份，向多家知名的科技公司进行了投资。腾讯报告它的第二季度净利润增长 37%，因为疫情在线游戏收入增长了 40%。腾讯首席财务官称，根据初步解读和随后的新闻报道，他们认为特朗普行政令集中在美国的微信服务，与其他业务无关，他们正向美国有关方面寻求进一步的澄清。他相信禁令对腾讯财务上的影响不会很大。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65240">阅读更多...</a>
+                    | <a href="/comments?sid=65240&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+            <div class="block_m">
+        <div class="ct_tittle">
+            <div class="mid_bgtittle"></div>
+            <div class="bg_htit">
+                <h2>
+                                        <span><a href='//science.solidot.org'>科学</a>: </span>
+                    
+                    <a href="/story?sid=65239">LHC 发现第一种开放味四夸克态粒子</a>
+                </h2>
+            </div>
+        </div>
+        <div class="talk_time">
+            <div class="icon_float">
+                <a href="/search?tid=19" title="科学"><img
+                        width="62" height="75"
+                        src="https://icon.solidot.org/images/topics/topicscience.gif" alt="科学" /></a>
+            </div>
+            <span class="user" id="3896">
+                <a href="/~ai">ai</a>(3896)
+                <div class=user_box></div>
+            </span>
+            发表于2020年08月13日 20时35分            星期四<br/>
+            <b>来自</b>
+        </div>
+        <div class="p_content">
+                                                <div class="p_mainnew">
+                欧洲粒子物理研究所（CERN）LHCb 项目的物理学家<a href="https://physicsworld.com/a/first-open-flavour-tetraquark-is-spotted-by-lhcb-at-cern/">发现了</a>第一种四种不同味夸克构成的四夸克态粒子 X(2900)，它的质量大约为 2.9 GeV/c2，有两种自旋态。物理学家尚未完全确认其性质，它由反粲、反奇、上和下夸克构成。它不包含同味的夸克反夸克对，因此被描述为“开放味（open flavour）”。在  X(2900)之前，所有已知的四夸克态粒子都包含至少一对粲-反粲或一对底-反底夸克。            </div>
+        </div>
+        <div class="talk_more">
+            <div class="lmid" ></div>
+            <div class="rmid"></div>
+            <div class="talkm_mid">
+                <div class="l">
+                    <a href="/story?sid=65239">阅读更多...</a>
+                    | <a href="/comments?sid=65239&op=reply&type=story">发表评论</a>
+                                                                            </div>
+                <div class="r">
+                                                        </div>
+            </div>
+        </div>
+    </div>
+        <div class="page">
+	<a href='//www.solidot.org/?issue=20200815'>昨天的文章</a></div>
+</div>
+<script type="text/javascript" language="javascript">
+        $('div.block_m span.user').mouseover(function () {
+        var _this = $(this).children('.user_box');
+        if (_this.html() == "") {
+            var start = '<div class="user_on"></div><div class="user_midd">';
+            var end = '</div><div class="user_down"></div>';
+            _this.html(start + '<div class="us_box cenTer"><div class="tloading"></div></div>' + end);
+            $.ajax({
+                type: "POST",
+                url: "/user/userinfo",
+                data: "user=" + $(this).attr('id'),
+                success: function (data) {
+                    var data = eval("(" + data + ")");
+                    var content = '';
+                    if (data[0] == -2) {
+                        content += '<div class="us_box cenTer">暂无个人简介</div>';
+                    } else {
+                        content += '<div class="us_box">' + data[0][0] + data[0][1] + '</div>';
+                        content += '<div class="us_box"><b class="l">关系：</b>';
+                        if (data[1] == -1) {
+                            content += '自己';
+                        } else if (data[1][0] == 0) {
+                            content += '<img src="https://icon.solidot.org/images/default/neutral.gif" class="my_rship"/>普通&nbsp;<a href="/my/check?uid=' + data[1][1] + '" class="same_the">修改关系</a>';
+                        } else if (data[1][0] == 1) {
+                            content += '<img src="https://icon.solidot.org/images/default/friend.gif" class="my_rship"/>朋友&nbsp;<a href="/my/check?uid=' + data[1][1] + '" class="same_the">修改关系</a>';
+                        } else if (data[1][0] == 2) {
+                            content += '<img src="https://icon.solidot.org/images/default/foe.gif" class="my_rship"/>敌人&nbsp;<a href="/my/check?uid=' + data[1][1] + '" class="same_the">修改关系</a>';
+                        }
+                        content += "</div>";
+                        if (data[2] != undefined) {
+                            content += '<div class="us_box"><b>签名：</b>' + data[2] + '</div>';
+                        }
+                    }
+                    _this.html(start + content + end);
+                }
+            })
+        }
+        else
+            _this.removeClass('hiden')
+    }).mouseout(function () {
+        $(this).children('div.user_box').addClass('hiden')
+    })
+</script>
+
+﻿	<div class="clear"></div>
+	<div id="footer">
+	  <p class="famous">成功的骗子，不必再说谎以求生，因为被骗的人，全成为他的拥护者，我再说什么也是枉然。--莎士比亚</p>
+	  <div class="btmnav">
+	    <ul>
+	      <li class="begin"> <a href="/">首页</a> </li>
+	      <li> <a href="http://www.zhiding.cn">至顶网</a> </li>
+	      <li> <a href="/submit">提交文章</a> </li>
+	      <li> <a href="/?issume=20200815">往日文章</a> </li>
+	      <li> <a href="/polllist">过去的投票</a> </li>
+	      <li> <a href="/authors">编辑介绍</a> </li>
+	      <li> <a href="/privacy">隐私政策</a> </li>
+	      <li> <a href="/terms">使用条款</a> </li>
+	      <li> <a href="/introd">网站介绍</a> </li>
+	      <li> <a href="/index.rss">RSS</a> </li>
+	    </ul>
+	  </div>
+	  <div id="copyinfo">
+	    <p>本站提到的所有注册商标属于他们各自的所有人所有，评论属于其发表者所有，其余内容版权属于 solidot.org(2009-<script>document.write(new Date().getFullYear());</script>) 所有 。</p>
+	    <p>
+	    	<a href="//php.net/" title="PHP 服务器" target="_blank"><img border="0" src="https://icon.solidot.org/images/btn/php.gif" alt="php"></a>
+	    	<a href="//apache.org/" title="Apache 服务器" target="_blank"><img border="0" src="https://icon.solidot.org/images/btn/apache.gif" alt="apache"></a>
+	    	<a href="//www.mysql.com/" title="MySQL" target="_blank"><img border="0" src="https://icon.solidot.org/images/btn/mysql.gif" alt="mysql"></a>
+	    </p>
+	    <p><a href="//www.solidot.org" title="solidot.org"><img border="0" src="https://icon.solidot.org/images/btn/solidot-s.gif"></a></p>
+	    <p>京ICP证161336号&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://www.beian.miit.gov.cn">京ICP备15039648号-15</a> 北京市公安局海淀分局备案号：11010802021500 <a href="//icp.valu.cn/search/domain/solidot.org?verifyCode=pu7c4"><img src="//icon.zhiding.cn/beian/icon.png" style="margin-right:8px;"></a> </p>
+	    <p>违法和不良信息举报电话：13070156560　举报邮箱：jubao@zhiding.cn　网上有害信息举报专区：<a href="https://www.12377.cn" target="_blank">https://www.12377.cn</a></p>
+	  </div>
+	  <div class="clear"></div>
+	</div>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d11396a350156e4682e4156a671bdaf1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script type='text/javascript' language='javascript' src='https://icon.solidot.org/js/base.js'></script><script type="text/javascript">
+$('#ul_nav li.s_icon').mouseover(function(){
+	var d = $(this).children('div');
+	d.toggleClass('hiden');
+}).mouseout(function(){
+	var d = $(this).children('div');
+	d.toggleClass('hiden');
+});
+$('.wechat').mouseover(function(){
+	$('.wechat_code').toggleClass('hiden');
+}).mouseout(function(){
+	$('.wechat_code').toggleClass('hiden');
+});
+</script>
+<!--
+<script src="https://togetherjs.com/togetherjs-min.js"></script>
+<button onclick="TogetherJS(this); return false;">Start TogetherJS</button>
+-->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    var pv = "http://pv.zhiding.cn/js/pv.js";
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    if (curProtocol ==='https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        pv = "https://pv.zhiding.cn/js/pv.js";
+    }
+    //document.getElementById('pv').src=pv;
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+</body>
+</html>
